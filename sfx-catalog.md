@@ -32,6 +32,8 @@ Create virtual collections without moving original files. Use Favorites, file-ma
 
 The Pro panel browses prepared libraries inside Resolve without requiring the SFX Catalog desktop application to remain open. Prepared libraries remain usable by the panel after desktop license deactivation, provided the database and sound files remain accessible.
 
+
+
 ## Free and Pro
 
 | Feature | Free | Pro |
@@ -53,6 +55,8 @@ The Pro panel browses prepared libraries inside Resolve without requiring the SF
 A one-time license supports up to three active computers. Deactivate one device to free a place for another. Deactivation returns the desktop application to Free mode.
 
 Activation and deactivation require internet access. Local work does not require a continuous connection. When online, the application checks for updates and activation status in the background at startup, no more than once per day. A connection failure does not disable saved Pro access. Windows Pro activation requires a valid system UUID.
+
+Use **Help → Check for updates** for an immediate manual check. **Help → Export diagnostic log** saves local update-check times, status and failure codes for support without including a license key, activation certificate or catalog data. The log is not sent automatically.
 
 Enter an existing key through **Help → Activate SFX Catalog Pro**, or the activation button under **Learn about Pro**. [License recovery](https://digdescript.com/license-recovery) is available for existing licenses.
 

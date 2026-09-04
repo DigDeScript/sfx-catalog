@@ -1,0 +1,27 @@
+SOURCE CODE OFFER FOR LGPL COMPONENTS
+
+Sound Effects Catalog is distributed with unmodified LGPL components, including
+Qt for Python / Qt and a dedicated FFmpeg build.
+
+For at least three years after receiving this program, a recipient may request
+the complete corresponding source code and build information for the LGPL
+components distributed with the program, at no more than the reasonable cost of
+providing the copy.
+
+Distributor contact:
+
+    https://digdescript.com
+
+The source project includes prepare_lgpl_source_archives.bat, which downloads
+and verifies the exact source archives for the distributed components:
+- Qt Base 6.11.1;
+- Qt Multimedia 6.11.1;
+- Qt for Python / Shiboken 6.11.1;
+- FFmpeg 7.1.1, retained by the dedicated FFmpeg build process.
+
+The FFmpeg build scripts and exact configuration are included with the source
+project. The source archive manifest records download locations and SHA-256
+hashes.
+
+This offer applies only to the LGPL components and does not grant rights to the
+proprietary Sound Effects Catalog application source code.

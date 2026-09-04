@@ -1,0 +1,43 @@
+SOUND EFFECTS CATALOG — THIRD-PARTY SOFTWARE NOTICES
+
+This file lists the software distributed in the Windows package.
+
+1. Qt for Python / Qt 6.11.1
+- Components used: PySide6, Shiboken6 runtime, Qt Core, GUI, Widgets and
+  Multimedia audio-output classes.
+- Distributed under the GNU Lesser General Public License version 3 (LGPLv3),
+  using dynamically replaceable DLLs in the one-folder application package.
+- Full license: documentation/licenses/Qt-LGPL-3.0.txt
+- Corresponding-source offer: documentation/SOURCE_OFFER.txt
+- The Qt FFmpeg media playback plugin is deliberately removed. Audio playback
+  uses QAudioSink with PCM decoded by the separate FFmpeg tools described below.
+
+2. FFmpeg 7.1.1 — dedicated audio-focused build
+- Built from official FFmpeg source by the scripts included with the project.
+- Distributed as separate ffmpeg.exe, ffprobe.exe and shared FFmpeg DLLs.
+- GPL and nonfree components are disabled. No external codec libraries are
+  enabled. Network, devices and ffplay are disabled. Only raw PCM output
+  encoders/muxers needed by this application are enabled.
+- License: GNU LGPL version 2.1 or later, plus permissive licenses used by parts
+  of FFmpeg.
+- Full LGPL text: documentation/licenses/FFmpeg-LGPL-2.1.txt
+- Exact source and build information: documentation/SOURCE_OFFER.txt and
+  vendor/ffmpeg/BUILD_INFO.txt in the source/build project.
+
+3. NumPy 2.5.1
+- Used for waveform, spectral and similarity calculations.
+- NumPy uses the BSD 3-Clause license and includes notices for bundled
+  third-party components.
+- Full installed-package notice: documentation/licenses/NumPy-LICENSE.txt
+
+4. Python 3.x runtime
+- Distributed under the Python Software Foundation License and related notices.
+- Full text: documentation/licenses/PYTHON-LICENSE.txt
+
+5. PyInstaller 6.21.0 bootloader
+- Used to create the Windows one-folder package. The generated package contains
+  the PyInstaller bootloader under the PyInstaller GPL license with its special
+  bootloader exception, which permits distribution of proprietary applications.
+- Full terms: documentation/licenses/PyInstaller-COPYING.txt
+
+Sound Effects Catalog itself is licensed separately under documentation/LICENSE.txt.

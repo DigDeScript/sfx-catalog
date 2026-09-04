@@ -52,7 +52,7 @@ The Pro panel browses prepared libraries inside Resolve without requiring the SF
 
 A one-time license supports up to three active computers. Deactivate one device to free a place for another. Deactivation returns the desktop application to Free mode.
 
-Activation and deactivation require internet access. Local work does not require a continuous connection. The application periodically checks for updates and activation status when online. Windows Pro activation requires a valid system UUID.
+Activation and deactivation require internet access. Local work does not require a continuous connection. When online, the application checks for updates and activation status in the background at startup, no more than once per day. A connection failure does not disable saved Pro access. Windows Pro activation requires a valid system UUID.
 
 Enter an existing key through **Help → Activate SFX Catalog Pro**, or the activation button under **Learn about Pro**. [License recovery](https://digdescript.com/license-recovery) is available for existing licenses.
 

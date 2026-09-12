@@ -1,6 +1,6 @@
 # SFX Catalog
 
-Sound-effects library software for Windows by DigDeScript.
+Sound-effects library software for Windows and Linux by DigDeScript. A macOS version is planned.
 
 This repository contains product information, screenshots and packaged releases. It does not contain the proprietary SFX Catalog application source code.
 
@@ -13,7 +13,7 @@ This repository contains product information, screenshots and packaged releases.
 
 One application runs in Free mode and unlocks Pro features with an activated license. Download the application ZIP attached to a published release, not GitHub's automatically generated **Source code** archives.
 
-The initial GitHub package is being prepared for publication. Until a release is published here, use the download offered on the official website.
+Windows and Linux packages are available from the latest published release. The official website uses those same GitHub release assets for its download links.
 
 ## Support
 

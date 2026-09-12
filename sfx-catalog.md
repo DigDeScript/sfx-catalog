@@ -4,7 +4,7 @@ id: sfx-catalog
 title: SFX Catalog
 category: software
 status: published
-platform: windows
+platform: windows and linux
 summary: Organize, search and preview your sound effects in one desktop application.
 release_repository: DigDeScript/sfx-catalog
 website: https://digdescript.com/software?product=sfx-catalog
@@ -22,7 +22,7 @@ SFX Catalog turns local folders of sound effects into a searchable library. Keep
 
 Use your own sound collection or browse the OpenGameArt CC0 Sound Library online. Download individual sounds or the whole library, extract the archive and scan the downloaded folder for offline use. Online libraries are read-only.
 
-Version 1.1.1 adds automatic discovery of an installed DaVinci Resolve Fairlight Sound Library, including its supported custom installation-location record. The sounds must already exist on your computer; they are not supplied with SFX Catalog. This is separate from the Pro panel inside Resolve.
+Version 1.1.3 supports Windows and Linux and adds automatic discovery of an installed DaVinci Resolve Fairlight Sound Library, including supported custom installation locations. The sounds must already exist on your computer; they are not supplied with SFX Catalog. This is separate from the Pro panel inside Resolve.
 
 ### Organize with Pro
 
@@ -31,8 +31,6 @@ Create virtual collections without moving original files. Use Favorites, file-ma
 ### Continue in DaVinci Resolve
 
 The Pro panel browses prepared libraries inside Resolve without requiring the SFX Catalog desktop application to remain open. Prepared libraries remain usable by the panel after desktop license deactivation, provided the database and sound files remain accessible.
-
-
 
 ## Free and Pro
 
@@ -54,7 +52,7 @@ The Pro panel browses prepared libraries inside Resolve without requiring the SF
 
 A one-time license supports up to three active computers. Deactivate one device to free a place for another. Deactivation returns the desktop application to Free mode.
 
-Activation and deactivation require internet access. Local work does not require a continuous connection. When online, the application checks for updates and activation status in the background at startup, no more than once per day. A connection failure does not disable saved Pro access. Windows Pro activation requires a valid system UUID.
+Activation and deactivation require internet access. Local work does not require a continuous connection. When online, the application checks for updates and activation status in the background at startup, no more than once per day. A connection failure does not disable saved Pro access. Pro activation requires a supported system identity.
 
 Use **Help → Check for updates** for an immediate manual check. **Help → Export diagnostic log** saves local update-check times, status and failure codes for support without including a license key, activation certificate or catalog data. The log is not sent automatically.
 
@@ -62,7 +60,9 @@ Enter an existing key through **Help → Activate SFX Catalog Pro**, or the acti
 
 ## Getting started
 
-Download the complete Windows ZIP, extract it and run `SFXCatalog.exe`. Keep all extracted application files together. No separate Python installation is required. Select a sound folder to scan, then search and listen.
+For Windows, download and extract the complete ZIP, then run `SFXCatalog.exe`. For Linux, extract the `.tar.gz`, run `install.sh`, and start SFX Catalog from the application menu. Follow `README-Linux.txt` included in the archive for system requirements. No separate Python installation is required to run either packaged version.
+
+**A macOS version is coming soon.**
 
 Catalog information and playback caches are stored locally. Audio preview caches can require additional disk space, particularly for long recordings. SFX Catalog is primarily intended for sound effects.
 

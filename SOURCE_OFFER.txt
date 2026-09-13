@@ -12,12 +12,11 @@ Distributor contact:
 
     https://digdescript.com
 
-The source project includes prepare_lgpl_source_archives.bat, which downloads
-and verifies the exact source archives for the distributed components:
-- Qt Base 6.11.1;
-- Qt Multimedia 6.11.1;
-- Qt for Python / Shiboken 6.11.1;
-- FFmpeg 7.1.1, retained by the dedicated FFmpeg build process.
+The build records and corresponding-source preparation tools identify and verify
+the source archives for the distributed components. The Windows package uses Qt
+6.11.1 and the dedicated FFmpeg 7.1.1 build. The Linux package uses Qt 6.9.3 for
+glibc 2.28 compatibility and includes the runtime components selected by the Linux
+packaging process.
 
 The FFmpeg build scripts and exact configuration are included with the source
 project. The source archive manifest records download locations and SHA-256

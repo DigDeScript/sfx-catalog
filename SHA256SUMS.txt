@@ -1,1 +1,2 @@
-f334c86d98017c9df1e7ac87a82d4d82111ca91c8b509a8d57d68ef42598342a  SFXCatalog-Windows-v1.1.1.zip
+a93682e36c904a358ea35d2d028cbc98ded8b3ffbed4829fd5e20de15943ee44  SFXCatalog-Windows-v1.1.3.zip
+44a2ecc1f361ba9cd3e232c8db4797f50584e1134e434a1199f3de7711ef2d64  SFXCatalog-Linux-v1.1.3.tar.gz

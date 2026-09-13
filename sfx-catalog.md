@@ -40,7 +40,7 @@ The Pro panel browses prepared libraries inside Resolve without requiring the SF
 | Filename search and audio-property filters | Included | Included |
 | Waveform playback, pause and seeking | Included | Included |
 | Online OpenGameArt library browsing and downloads | Included | Included |
-| Installed Fairlight library discovery (from 1.1.1) | Included | Included |
+| Installed Fairlight library discovery | Included | Included |
 | Light/dark themes and adjustable panel positions | Included | Included |
 | Favorites and custom virtual libraries | Not included | Included |
 | Rename, move, delete and bulk local-file workflows | Not included | Included |

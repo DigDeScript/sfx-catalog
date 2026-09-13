@@ -1,8 +1,13 @@
 SOUND EFFECTS CATALOG — THIRD-PARTY SOFTWARE NOTICES
 
-This file lists the software distributed in the Windows package.
+This file summarizes the principal third-party software distributed in the Windows
+and Linux packages. Exact component versions and notices are included in each
+platform package or its corresponding build records.
 
-1. Qt for Python / Qt 6.11.1
+1. Qt for Python / Qt
+- Windows package: Qt for Python / Qt 6.11.1.
+- Linux package: Qt for Python / Qt 6.9.3, selected for compatibility with
+  glibc 2.28 systems.
 - Components used: PySide6, Shiboken6 runtime, Qt Core, GUI, Widgets and
   Multimedia audio-output classes.
 - Distributed under the GNU Lesser General Public License version 3 (LGPLv3),
@@ -10,9 +15,12 @@ This file lists the software distributed in the Windows package.
 - Full license: documentation/licenses/Qt-LGPL-3.0.txt
 - Corresponding-source offer: documentation/SOURCE_OFFER.txt
 - The Qt FFmpeg media playback plugin is deliberately removed. Audio playback
-  uses QAudioSink with PCM decoded by the separate FFmpeg tools described below.
+  uses QAudioSink with PCM decoded by the applicable FFmpeg runtime.
 
-2. FFmpeg 7.1.1 — dedicated audio-focused build
+2. FFmpeg
+- Windows uses the dedicated audio-focused FFmpeg 7.1.1 build described below.
+- The Linux package includes the runtime components produced and verified by the
+  Linux packaging process; Qt Multimedia may also carry its own FFmpeg runtime.
 - Built from official FFmpeg source by the scripts included with the project.
 - Distributed as separate ffmpeg.exe, ffprobe.exe and shared FFmpeg DLLs.
 - GPL and nonfree components are disabled. No external codec libraries are
@@ -35,7 +43,7 @@ This file lists the software distributed in the Windows package.
 - Full text: documentation/licenses/PYTHON-LICENSE.txt
 
 5. PyInstaller 6.21.0 bootloader
-- Used to create the Windows one-folder package. The generated package contains
+- Used to create the Windows and Linux one-folder packages. The generated packages contain
   the PyInstaller bootloader under the PyInstaller GPL license with its special
   bootloader exception, which permits distribution of proprietary applications.
 - Full terms: documentation/licenses/PyInstaller-COPYING.txt

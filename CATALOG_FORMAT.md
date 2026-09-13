@@ -1,6 +1,6 @@
 # Website catalog format
 
-`sfx-catalog.md` contains YAML front matter followed by Markdown. This is a proposed version-1 contract for the future website importer; synchronization is not yet implemented.
+`sfx-catalog.md` contains YAML front matter followed by Markdown. The DigDeScript website uses this version-1 contract to import the product description.
 
 - `id`: stable product identifier and URL slug.
 - `category`: `software` or `plugins`.

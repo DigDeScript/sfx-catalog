@@ -1,5 +1,16 @@
 # Release notes
 
+## 1.2.0 — 2026-09-30
+
+- Publishes updated Windows and Linux packages with unified Free and Pro modes.
+- Adds the SFX Catalog panel for DaVinci Resolve Studio on Linux, launched from Workspace → Scripts → SFX Catalog in a separate window.
+- Adds optional WAV conversion from the Resolve panel, preserving originals and keeping converted files outside the catalog database.
+- Improves library switching, context menus and Linux menu/hover stability.
+- Improves metadata display, descriptive-metadata search, multi-selection filters and handling of unavailable files in virtual libraries.
+- Includes clearer device labels for activation management, using computer and user names.
+
+Linux requires system-installed FFmpeg and ffprobe. Reinstalling Linux can change its device identity; use license self-service to deactivate an obsolete activation if necessary. A macOS package is not available yet.
+
 ## 1.1.3 — 2026-09-12
 
 - Publishes supported Windows and Linux user packages from the same unified Free/Pro codebase.

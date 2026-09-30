@@ -14,7 +14,7 @@ image_light: sfx-catalog-pro-interface-light.webp
 
 ## Your sound effects, organized and ready to audition
 
-SFX Catalog turns local folders of sound effects into a searchable library. Keep your original files where they are, scan them, then search by filename and filter audio properties. Listen with waveform previews, pause playback and jump to the part you need.
+SFX Catalog turns local folders of sound effects into a searchable library. Keep your original files where they are, scan them, then search filenames and supported descriptive metadata, and filter audio properties. Choose the selected folder or the entire library as the search scope. Listen with waveform previews, pause playback and jump to the part you need.
 
 **One download, two modes.** Start in Free mode without a Pro key. Activate a license in the same application to unlock Pro tools while keeping your catalog.
 
@@ -22,7 +22,7 @@ SFX Catalog turns local folders of sound effects into a searchable library. Keep
 
 Use your own sound collection or browse the OpenGameArt CC0 Sound Library online. Download individual sounds or the whole library, extract the archive and scan the downloaded folder for offline use. Online libraries are read-only.
 
-Version 1.1.3 supports Windows and Linux and adds automatic discovery of an installed DaVinci Resolve Fairlight Sound Library, including supported custom installation locations. The sounds must already exist on your computer; they are not supplied with SFX Catalog. This is separate from the Pro panel inside Resolve.
+SFX Catalog supports Windows and Linux and can discover an installed DaVinci Resolve Fairlight Sound Library, including supported custom installation locations. The sounds must already exist on your computer; they are not supplied with SFX Catalog. This read-only library is separate from the Pro panel for DaVinci Resolve Studio.
 
 ### Organize with Pro
 
@@ -30,14 +30,16 @@ Create virtual collections without moving original files. Use Favorites, file-ma
 
 ### Continue in DaVinci Resolve
 
-The Pro panel browses prepared libraries inside Resolve without requiring the SFX Catalog desktop application to remain open. Prepared libraries remain usable by the panel after desktop license deactivation, provided the database and sound files remain accessible.
+The Pro panel requires **DaVinci Resolve Studio**. On Windows it opens as a Workflow Integration; on Linux it opens from the Scripts menu in a separate window. Browse prepared libraries and import sounds without keeping the SFX Catalog desktop application open. Prepared libraries remain usable after desktop license deactivation, provided the exported catalog snapshot and sound files remain accessible.
+
+The panel can convert files to WAV for import when needed. Converted files are saved separately, leaving originals unchanged; they are not added to the SFX Catalog database.
 
 ## Free and Pro
 
 | Feature | Free | Pro |
 |---|---|---|
 | Local folder indexing and browsing | Included | Included |
-| Filename search and audio-property filters | Included | Included |
+| Filename and descriptive-metadata search; audio-property filters | Included | Included |
 | Waveform playback, pause and seeking | Included | Included |
 | Online OpenGameArt library browsing and downloads | Included | Included |
 | Installed Fairlight library discovery | Included | Included |
@@ -46,7 +48,7 @@ The Pro panel browses prepared libraries inside Resolve without requiring the SF
 | Rename, move, delete and bulk local-file workflows | Not included | Included |
 | Audio analysis and similar-sound search | Not included | Included |
 | Duplicate-finding tools | Not included | Included |
-| SFX Catalog panel inside DaVinci Resolve | Not included | Included |
+| SFX Catalog panel for DaVinci Resolve Studio | Not included | Included |
 
 ## Pro activation
 
@@ -62,7 +64,9 @@ Enter an existing key through **Help → Activate SFX Catalog Pro**, or the acti
 
 For Windows, download and extract the complete ZIP, then run `SFXCatalog.exe`. For Linux, extract the `.tar.gz`, run `install.sh`, and start SFX Catalog from the application menu. Follow `README-Linux.txt` included in the archive for system requirements. No separate Python installation is required to run either packaged version.
 
-**A macOS version is coming soon.**
+Linux also requires **FFmpeg and ffprobe** installed on the computer and available in PATH.
+
+**A macOS version is planned but is not available yet.**
 
 Catalog information and playback caches are stored locally. Audio preview caches can require additional disk space, particularly for long recordings. SFX Catalog is primarily intended for sound effects.
 

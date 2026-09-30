@@ -19,8 +19,9 @@ platform package or its corresponding build records.
 
 2. FFmpeg
 - Windows uses the dedicated audio-focused FFmpeg 7.1.1 build described below.
-- The Linux package includes the runtime components produced and verified by the
-  Linux packaging process; Qt Multimedia may also carry its own FFmpeg runtime.
+- Linux requires system-installed FFmpeg and ffprobe for application decoding.
+  Their versions and licensing depend on the user's distribution. Any additional
+  bundled Qt runtime components are covered by the notices in the Linux archive.
 - Built from official FFmpeg source by the scripts included with the project.
 - Distributed as separate ffmpeg.exe, ffprobe.exe and shared FFmpeg DLLs.
 - GPL and nonfree components are disabled. No external codec libraries are

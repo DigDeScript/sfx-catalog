@@ -11,13 +11,15 @@ This repository contains product information, screenshots and packaged releases.
 - [Release notes](CHANGELOG.md)
 - [Packaged releases](https://github.com/DigDeScript/sfx-catalog/releases)
 
-One application runs in Free mode and unlocks Pro features with an activated license. Download the application ZIP attached to a published release, not GitHub's automatically generated **Source code** archives.
+One application runs in Free mode and unlocks Pro features with an activated license. Download the Windows ZIP or Linux tar.gz attached to a published release, not GitHub's automatically generated **Source code** archives.
 
 Windows and Linux packages are available from the latest published release. The official website uses those same GitHub release assets for its download links.
 
 ## Support
 
 Contact [support@digdescript.com](mailto:support@digdescript.com). Do not post license keys or personal information in public issues.
+
+Linux requires FFmpeg and ffprobe on the user's computer. Read the included `README-Linux.txt` before installation. The optional SFX Catalog panel requires **DaVinci Resolve Studio**; DaVinci Resolve Free is not supported for the panel.
 
 ## Third-party components
 

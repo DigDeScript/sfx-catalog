@@ -62,6 +62,16 @@ Enter an existing key through **Help → Activate SFX Catalog Pro**, or the acti
 
 ## Getting started
 
+### Updates
+
+Use **Help → Check for updates** and follow the download link when a new version is available. Download the full Windows ZIP or Linux archive from GitHub Releases through the official website; SFX Catalog does not install updates automatically.
+
+Close SFX Catalog and DaVinci Resolve. On Windows, extract the complete ZIP into a new folder. On Linux, extract the archive and run `install.sh`. Launch the new version and check your libraries. If the application path changed, update shortcuts and reinstall the Resolve plugin from the new version: Linux needs the path to launch the panel, while Windows needs it for audio conversion.
+
+After checking the new version, **you can safely delete the old application folder with all its bundled files**, provided you first move out any personal files or sound libraries stored there. Keep the currently used installation and the separate SoundEffectsCatalog user-data folder containing the catalog and saved activation. No deactivation is needed for an update on the same computer and user account.
+
+### Installation
+
 For Windows, download and extract the complete ZIP, then run `SFXCatalog.exe`. For Linux, extract the `.tar.gz`, run `install.sh`, and start SFX Catalog from the application menu. Follow `README-Linux.txt` included in the archive for system requirements. No separate Python installation is required to run either packaged version.
 
 Linux also requires **FFmpeg and ffprobe** installed on the computer and available in PATH.

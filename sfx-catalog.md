@@ -4,7 +4,7 @@ id: sfx-catalog
 title: SFX Catalog
 category: software
 status: published
-platform: windows and linux
+platform: Windows and Linux
 summary: Organize, search and preview your sound effects in one desktop application.
 release_repository: DigDeScript/sfx-catalog
 website: https://digdescript.com/software?product=sfx-catalog
@@ -76,8 +76,16 @@ For Windows, download and extract the complete ZIP, then run `SFXCatalog.exe`. F
 
 Linux also requires **FFmpeg and ffprobe** installed on the computer and available in PATH.
 
-**A macOS version is planned but is not available yet.**
+See [macOS availability and instructions](https://digdescript.com/support/sfx-catalog/resolve-panel#macos).
 
 Catalog information and playback caches are stored locally. Audio preview caches can require additional disk space, particularly for long recordings. SFX Catalog is primarily intended for sound effects.
 
 The OpenGameArt collection's CC0 designation is separate from the SFX Catalog software license.
+
+## Purchase information
+
+Current prices, upgrade offers and available purchase channels are listed on the [official product page](https://digdescript.com/software?product=sfx-catalog) and confirmed at checkout. Terms agreed at purchase continue to apply to that purchase.
+
+## Resolve panel after deactivation
+
+Deactivation returns the desktop application to Free mode; it does not disable an already installed Resolve panel or delete its saved catalog. The panel can continue to use accessible catalog data and audio files without the main desktop window running. The desktop snapshot service is not restricted to Pro mode: Free-mode catalog changes can update the shared snapshot. Pro-only editing tools, including virtual-library management, still require an active Pro license.

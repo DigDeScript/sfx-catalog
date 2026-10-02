@@ -4,7 +4,7 @@ Download the package for your operating system from the official website or a pu
 
 ## Windows
 
-1. Download `SFXCatalog-Windows-v1.2.0.zip`.
+1. Download the Windows package from the latest published release.
 2. Extract the complete archive to a folder you can write to.
 3. Open `SFXCatalog.exe`. Keep it together with the accompanying files.
 
@@ -12,7 +12,7 @@ Catalog data is stored under `%LOCALAPPDATA%\SoundEffectsCatalog`. Copying the a
 
 ## Linux
 
-1. Download `SFXCatalog-Linux-v1.2.0.tar.gz`.
+1. Download the Linux package from the latest published release.
 2. Extract the complete archive.
 3. Read `README-Linux.txt`, then run `install.sh` and start SFX Catalog from the application menu.
 
@@ -44,4 +44,4 @@ If Windows displays a security warning, verify the download source and package h
 
 Install the panel from SFX Catalog's Resolve menu. On Windows, open **Workspace → Workflow Integrations → Sound Effects Catalog** in DaVinci Resolve Studio. On Linux, open **Workspace → Scripts → SFX Catalog**; the panel runs in a separate window. DaVinci Resolve Free does not support this integration.
 
-A macOS version is planned but is not available yet.
+See [macOS availability and instructions](https://digdescript.com/support/sfx-catalog/resolve-panel#macos).

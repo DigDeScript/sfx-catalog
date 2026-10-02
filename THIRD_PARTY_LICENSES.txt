@@ -1,52 +1,41 @@
-SOUND EFFECTS CATALOG — THIRD-PARTY SOFTWARE NOTICES
+SFX CATALOG — THIRD-PARTY SOFTWARE NOTICES
 
-This file summarizes the principal third-party software distributed in the Windows
-and Linux packages. Exact component versions and notices are included in each
-platform package or its corresponding build records.
+This overview identifies principal third-party components used by SFX Catalog.
+Exact versions and additional notices are recorded in the applicable package's
+dependency audit, original license texts and corresponding build records.
+Packaging and component availability vary by platform.
 
 1. Qt for Python / Qt
-- Windows package: Qt for Python / Qt 6.11.1.
-- Linux package: Qt for Python / Qt 6.9.3, selected for compatibility with
-  glibc 2.28 systems.
-- Components used: PySide6, Shiboken6 runtime, Qt Core, GUI, Widgets and
-  Multimedia audio-output classes.
-- Distributed under the GNU Lesser General Public License version 3 (LGPLv3),
-  using dynamically replaceable DLLs in the one-folder application package.
-- Full license: documentation/licenses/Qt-LGPL-3.0.txt
-- Corresponding-source offer: documentation/SOURCE_OFFER.txt
-- The Qt FFmpeg media playback plugin is deliberately removed. Audio playback
-  uses QAudioSink with PCM decoded by the applicable FFmpeg runtime.
+- PySide6, Shiboken6 and Qt runtime components are used under LGPLv3.
+- Components remain separate from proprietary application code and use
+  dynamically linked, replaceable libraries where applicable. Compatible
+  replacement and modification remain subject to the applicable license.
+- License: documentation/licenses/Qt-LGPL-3.0.txt
+- Corresponding source: documentation/SOURCE_OFFER.txt
 
 2. FFmpeg
-- Windows uses the dedicated audio-focused FFmpeg 7.1.1 build described below.
-- Linux requires system-installed FFmpeg and ffprobe for application decoding.
-  Their versions and licensing depend on the user's distribution. Any additional
-  bundled Qt runtime components are covered by the notices in the Linux archive.
-- Built from official FFmpeg source by the scripts included with the project.
-- Distributed as separate ffmpeg.exe, ffprobe.exe and shared FFmpeg DLLs.
-- GPL and nonfree components are disabled. No external codec libraries are
-  enabled. Network, devices and ffplay are disabled. Only raw PCM output
-  encoders/muxers needed by this application are enabled.
-- License: GNU LGPL version 2.1 or later, plus permissive licenses used by parts
-  of FFmpeg.
-- Full LGPL text: documentation/licenses/FFmpeg-LGPL-2.1.txt
-- Exact source and build information: documentation/SOURCE_OFFER.txt and
-  vendor/ffmpeg/BUILD_INFO.txt in the source/build project.
+- FFmpeg and related tools process audio as separate third-party components.
+- FFmpeg's LGPL portions are licensed under LGPL 2.1 or later. Optional
+  components may have different terms; consult the actual runtime's notices
+  and build configuration. SFX Catalog's EULA does not relicense them.
+- License text: documentation/licenses/FFmpeg-LGPL-2.1.txt
+- Distributed components: see documentation/SOURCE_OFFER.txt. Separately
+  installed system components are covered by their distributor's notices.
+- See the included platform instructions for installation requirements.
 
-3. NumPy 2.5.1
+3. NumPy
 - Used for waveform, spectral and similarity calculations.
-- NumPy uses the BSD 3-Clause license and includes notices for bundled
-  third-party components.
-- Full installed-package notice: documentation/licenses/NumPy-LICENSE.txt
+- BSD 3-Clause license and additional bundled-component notices.
+- Notice: documentation/licenses/NumPy-LICENSE.txt
 
-4. Python 3.x runtime
-- Distributed under the Python Software Foundation License and related notices.
-- Full text: documentation/licenses/PYTHON-LICENSE.txt
+4. Python runtime
+- Python Software Foundation License and related notices.
+- License: documentation/licenses/PYTHON-LICENSE.txt
 
-5. PyInstaller 6.21.0 bootloader
-- Used to create the Windows and Linux one-folder packages. The generated packages contain
-  the PyInstaller bootloader under the PyInstaller GPL license with its special
-  bootloader exception, which permits distribution of proprietary applications.
-- Full terms: documentation/licenses/PyInstaller-COPYING.txt
+5. PyInstaller bootloader
+- GPL with the special bootloader exception permitting proprietary applications.
+- Terms: documentation/licenses/PyInstaller-COPYING.txt
 
-Sound Effects Catalog itself is licensed separately under documentation/LICENSE.txt.
+Other runtime dependencies and notices are identified in the package's audit.
+Original third-party license texts must remain intact. SFX Catalog itself is
+licensed separately under documentation/LICENSE.txt.

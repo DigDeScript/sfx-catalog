@@ -20,7 +20,7 @@ Linux requires system-installed FFmpeg and ffprobe. Reinstalling Linux can chang
 - Corrects waveform-cache invalidation after palette or style changes, preventing `QListView::changeEvent()` errors.
 - Keeps the player compact in every supported panel position.
 - Includes current search scope, filtered-results, library navigation and update-check behavior.
-- Includes the matched SFX Catalog panel for DaVinci Resolve.
+- Includes the matched SFX Catalog panel for DaVinci Resolve Studio on Windows.
 
 The Windows package passed the project test suite and packaged checks. The Linux package was built and launch-tested on Rocky Linux 8.10. This is not a guarantee of compatibility with every computer or Linux distribution.
 

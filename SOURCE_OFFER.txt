@@ -1,26 +1,27 @@
 SOURCE CODE OFFER FOR LGPL COMPONENTS
 
-Sound Effects Catalog is distributed with unmodified LGPL components, including
-Qt for Python / Qt and a dedicated FFmpeg build.
+SFX Catalog uses third-party components, including Qt for Python / Qt and FFmpeg.
+This offer covers LGPL components distributed by us with SFX Catalog, not the
+proprietary application code or components independently supplied by others.
 
 For at least three years after receiving this program, a recipient may request
 the complete corresponding source code and build information for the LGPL
 components distributed with the program, at no more than the reasonable cost of
-providing the copy.
+providing the copy. This includes applicable modifications, configuration and
+build materials for the supplied versions. This offer does not limit any longer
+obligation or additional right under the applicable licenses.
 
-Distributor contact:
+Request materials from support@digdescript.com. Include the SFX Catalog package
+version, operating system and, if available, filename or checksum so that we can
+identify the matching components. No Pro license purchase is required.
 
-    https://digdescript.com
+Distributor information: https://digdescript.com/legal
+Product information: https://digdescript.com/software?product=sfx-catalog
 
-The build records and corresponding-source preparation tools identify and verify
-the source archives for the distributed components. The Windows package uses Qt
-6.11.1 and the dedicated FFmpeg 7.1.1 build. The Linux package uses Qt 6.9.3 for
-glibc 2.28 compatibility and includes the runtime components selected by the Linux
-packaging process.
+Package audits, component build records and source manifests identify the exact
+versions, source archives, configurations and checksums. General upstream source
+links are not a substitute for the corresponding source of distributed binaries.
+These materials must be retained for each release.
 
-The FFmpeg build scripts and exact configuration are included with the source
-project. The source archive manifest records download locations and SHA-256
-hashes.
-
-This offer applies only to the LGPL components and does not grant rights to the
-proprietary Sound Effects Catalog application source code.
+This offer grants no rights to proprietary SFX Catalog application source code.
+Third-party rights remain governed by their respective licenses.

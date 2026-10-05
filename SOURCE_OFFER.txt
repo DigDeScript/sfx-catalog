@@ -4,6 +4,13 @@ SFX Catalog uses third-party components, including Qt for Python / Qt and FFmpeg
 This offer covers LGPL components distributed by us with SFX Catalog, not the
 proprietary application code or components independently supplied by others.
 
+FFmpeg components are bundled where applicable. On platforms where SFX Catalog
+uses the system-installed ffmpeg and ffprobe, those binaries are not distributed
+with the application. The Linux version uses system-installed ffmpeg and ffprobe
+for its command-line audio processing. This does not exclude any FFmpeg libraries
+actually bundled with another runtime component: this offer still covers all
+LGPL components that we distribute, as identified in the package audit.
+
 For at least three years after receiving this program, a recipient may request
 the complete corresponding source code and build information for the LGPL
 components distributed with the program, at no more than the reasonable cost of

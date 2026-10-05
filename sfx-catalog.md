@@ -26,7 +26,7 @@ SFX Catalog supports Windows and Linux and can discover an installed DaVinci Res
 
 ### Organize with Pro
 
-Create virtual collections without moving original files. Use Favorites, file-management operations, duplicate-finding tools and audio-based similar-sound search. Similarity results are suggestions to audition, not a guarantee that sounds are interchangeable.
+Create virtual collections without moving original files. Use Favorites, file-management operations and audio-based similar-sound search. Similarity results are suggestions to audition, not a guarantee that sounds are interchangeable.
 
 ### Continue in DaVinci Resolve
 
@@ -47,7 +47,6 @@ The panel can convert files to WAV for import when needed. Converted files are s
 | Favorites and custom virtual libraries | Not included | Included |
 | Rename, move, delete and bulk local-file workflows | Not included | Included |
 | Audio analysis and similar-sound search | Not included | Included |
-| Duplicate-finding tools | Not included | Included |
 | SFX Catalog panel for DaVinci Resolve Studio | Not included | Included |
 
 ## Pro activation
@@ -76,15 +75,15 @@ For Windows, download and extract the complete ZIP, then run `SFXCatalog.exe`. F
 
 Linux also requires **FFmpeg and ffprobe** installed on the computer and available in PATH.
 
-See [macOS availability and instructions](https://digdescript.com/support/sfx-catalog/resolve-panel#macos).
+See [the current macOS release status](https://digdescript.com/support/sfx-catalog/resolve-panel#macos).
 
 Catalog information and playback caches are stored locally. Audio preview caches can require additional disk space, particularly for long recordings. SFX Catalog is primarily intended for sound effects.
 
 The OpenGameArt collection's CC0 designation is separate from the SFX Catalog software license.
 
-## Purchase information
+## Purchase and updates
 
-Current prices, upgrade offers and available purchase channels are listed on the [official product page](https://digdescript.com/software?product=sfx-catalog) and confirmed at checkout. Terms agreed at purchase continue to apply to that purchase.
+SFX Catalog Pro is sold as a one-time license for up to three active computers. The license includes all SFX Catalog 1.x updates. SFX Catalog 2.0 is a separate major version and is not included in the 1.x license. Any upgrade offer will be announced separately. Current pricing and checkout options are available on the [official product page](https://digdescript.com/software?product=sfx-catalog). Terms agreed at purchase continue to apply to that purchase.
 
 ## Resolve panel after deactivation
 

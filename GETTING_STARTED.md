@@ -44,4 +44,4 @@ If Windows displays a security warning, verify the download source and package h
 
 Install the panel from SFX Catalog's Resolve menu. On Windows, open **Workspace → Workflow Integrations → Sound Effects Catalog** in DaVinci Resolve Studio. On Linux, open **Workspace → Scripts → SFX Catalog**; the panel runs in a separate window. DaVinci Resolve Free does not support this integration.
 
-See [macOS availability and instructions](https://digdescript.com/support/sfx-catalog/resolve-panel#macos).
+See [the current macOS release status](https://digdescript.com/support/sfx-catalog/resolve-panel#macos).

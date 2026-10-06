@@ -1,5 +1,14 @@
 # Release notes
 
+## 1.2.1 — 2026-10-06
+
+- Publishes updated Windows and Linux packages.
+- Updates in-app Resolve troubleshooting links and the macOS link wording.
+- Shows update instructions in Check for updates when a newer version is available.
+- Refreshes bundled help and licensing documentation.
+
+Updates use full packages, not incremental patches. See the [Support page](https://digdescript.com/support) for installation and update instructions.
+
 ## 1.2.0 — 2026-09-30
 
 - Publishes updated Windows and Linux packages with unified Free and Pro modes.

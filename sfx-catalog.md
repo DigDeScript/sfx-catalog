@@ -83,6 +83,8 @@ The OpenGameArt collection's CC0 designation is separate from the SFX Catalog so
 
 ## Purchase and updates
 
+Buy a Pro activation key on the [official DigDeScript product page](https://digdescript.com/software?product=sfx-catalog) using **Buy Pro**. After a successful purchase, the key is sent to the email address used at checkout. Enter it through **Help → Activate SFX Catalog Pro** in the application you already downloaded. GitHub provides the downloads; purchases are made through the official website.
+
 SFX Catalog Pro is sold as a one-time license for up to three active computers. The license includes all SFX Catalog 1.x updates. SFX Catalog 2.0 is a separate major version and is not included in the 1.x license. Any upgrade offer will be announced separately. Current pricing and checkout options are available on the [official product page](https://digdescript.com/software?product=sfx-catalog). Terms agreed at purchase continue to apply to that purchase.
 
 ## Resolve panel after deactivation

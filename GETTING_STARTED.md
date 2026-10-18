@@ -36,7 +36,7 @@ Select a local sound folder and let the application scan it. Search, filter and 
 
 To use downloaded online sounds offline, extract the sound-library ZIP and select that sound folder for scanning.
 
-To activate Pro, use **Help → Activate SFX Catalog Pro**. Keep your license key private. Contact support@digdescript.com if you need help.
+To buy a Pro activation key, visit the [official DigDeScript product page](https://digdescript.com/software?product=sfx-catalog) and select **Buy Pro**. After a successful purchase, the key is sent to the email address used at checkout. To activate Pro, use **Help → Activate SFX Catalog Pro** in the same application; no separate Pro download is needed. Keep your license key private. Contact support@digdescript.com if you need help.
 
 If Windows displays a security warning, verify the download source and package hash before deciding whether to run it. Do not disable antivirus protection.
 
